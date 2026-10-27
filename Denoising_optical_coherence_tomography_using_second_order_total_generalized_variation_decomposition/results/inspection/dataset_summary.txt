@@ -1,0 +1,19 @@
+Sparsity_SDOCT_DATASET_2012: 17 cases
+
+case  1  raw (520, 970) float64 range 0-255  mean 87.4 std 44.4 | avg (520, 970) range 7-219 mean 82.3 std 28.5
+case  2  raw (530, 980) float64 range 0-255  mean 81.0 std 40.9 | avg (530, 980) range 7-239 mean 78.5 std 28.7
+case  3  raw (508, 960) float64 range 0-255  mean 80.0 std 40.6 | avg (508, 960) range 18-198 mean 82.5 std 27.0
+case  4  raw (552, 990) float64 range 0-255  mean 74.9 std 43.3 | avg (552, 990) range 5-231 mean 78.4 std 31.4
+case  5  raw (550, 950) float64 range 0-255  mean 66.2 std 42.0 | avg (550, 950) range 13-199 mean 72.3 std 29.2
+case  6  raw (540, 950) float64 range 0-255  mean 70.1 std 36.7 | avg (540, 950) range 21-211 mean 70.0 std 21.1
+case  7  raw (530, 980) float64 range 0-255  mean 72.5 std 38.5 | avg (530, 980) range 10-214 mean 70.0 std 24.5
+case  8  raw (540, 940) float64 range 0-255  mean 70.5 std 39.6 | avg (540, 940) range 6-225 mean 66.5 std 26.3
+case  9  raw (510, 960) float64 range 0-255  mean 74.7 std 42.4 | avg (510, 960) range 16-228 mean 78.9 std 32.4
+case 10  raw (540, 960) float64 range 0-255  mean 84.8 std 47.2 | avg (540, 960) range 0-237 mean 79.3 std 32.9
+case 11  raw (550, 980) float64 range 0-255  mean 82.8 std 49.1 | avg (550, 980) range 0-252 mean 84.6 std 39.6
+case 12  raw (550, 980) float64 range 0-255  mean 86.1 std 46.1 | avg (550, 980) range 5-247 mean 78.8 std 34.0
+case 13  raw (530, 970) float64 range 0-255  mean 91.8 std 51.3 | avg (530, 970) range 21-255 mean 90.2 std 39.2
+case 14  raw (550, 980) float64 range 0-255  mean 82.9 std 52.7 | avg (550, 980) range 17-252 mean 83.5 std 39.5
+case 15  raw (540, 950) float64 range 0-255  mean 90.1 std 51.3 | avg (540, 950) range 25-253 mean 90.0 std 39.9
+case 16  raw (530, 970) float64 range 0-255  mean 84.4 std 45.3 | avg (530, 970) range 9-243 mean 83.3 std 31.5
+case 17  raw (530, 960) float64 range 0-255  mean 76.9 std 41.5 | avg (530, 960) range 21-246 mean 76.6 std 29.2

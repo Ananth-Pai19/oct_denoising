@@ -1,0 +1,11 @@
+Local-noise test:  log(sigma_local) = p * log(mu_local) + c
+p ~ 0  -> additive noise (log-domain data)
+p ~ 1  -> multiplicative noise (linear-domain data)
+
+case  1: p_raw = 0.018, p_averaged = 0.926
+case  2: p_raw = 0.228, p_averaged = 1.507
+case  3: p_raw = 0.080, p_averaged = 0.878
+
+case  1: p(no transform) = 0.018, p(log(1+50x)) = -2.875
+case  2: p(no transform) = 0.228, p(log(1+50x)) = -2.683
+case  3: p(no transform) = 0.080, p(log(1+50x)) = -2.664

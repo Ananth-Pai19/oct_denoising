@@ -1,0 +1,10 @@
+var=0.02: TGV PSNR 30.70 dB, 20 it, 0.75 s
+var=0.04: TGV PSNR 28.69 dB, 20 it, 0.73 s
+var=0.06: TGV PSNR 27.29 dB, 22 it, 0.79 s
+var=0.08: TGV PSNR 26.20 dB, 24 it, 0.86 s
+var=0.1: TGV PSNR 25.32 dB, 26 it, 0.98 s
+  figure -> results/figures/synthetic/fig3_metrics.png
+  figure -> results/figures/synthetic/fig4_comparison.png
+  figure -> results/figures/synthetic/fig4_zoom.png
+  figure -> results/figures/synthetic/fig_decomposition.png
+done

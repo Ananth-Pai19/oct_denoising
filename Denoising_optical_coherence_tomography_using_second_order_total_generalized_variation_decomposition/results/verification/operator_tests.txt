@@ -1,0 +1,8 @@
+adjoint consistency + FFT closed form vs direct sparse solve
+adjoints.div_adjoint_rel_err: 1.012539e-15
+adjoints.sym_grad_adjoint_rel_err: 2.109033e-16
+adjoints.max_abs_div_minus_negGt: 0.000000e+00
+closed_forms.u_rel_err: 5.397378e-16
+closed_forms.g_rel_err: 3.926767e-16
+closed_forms.p_rel_err: 5.263434e-16
+RESULT: PASS

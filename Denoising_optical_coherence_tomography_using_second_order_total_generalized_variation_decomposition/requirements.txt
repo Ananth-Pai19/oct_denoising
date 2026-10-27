@@ -1,0 +1,15 @@
+# Reproduction of Duan et al. (2016), BSPC 24:120-127
+# Python 3.10+ ; tested on 3.14.9 with the versions below.
+
+numpy>=1.26            # tested with 2.5.4
+scipy>=1.11            # tested with 1.18.1
+matplotlib>=3.8        # tested with 3.10.x
+scikit-image>=0.22     # SSIM
+PyWavelets>=1.5        # Haar wavelet baseline (HWT)
+tifffile>=2023.7       # reading the OCT TIFFs
+dtcwt>=0.13            # dual-tree complex wavelet baseline (DTCWT)
+pytest>=8              # unit tests
+
+# NOTE on dtcwt: 0.13 predates NumPy 2.x and calls np.asfarray / np.issubsctype, both
+# removed in NumPy 2.0.  src/baselines.py installs two one-line aliases before importing
+# dtcwt, so no pinning or patching of the package is required.

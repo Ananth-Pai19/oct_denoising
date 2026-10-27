@@ -1,0 +1,138 @@
+noisy baseline @ var 0.04: {'PSNR': 14.014442573559172, 'SNR': 3.5979457506780124, 'RMSE': 0.19919474238592288, 'RMSE_255': 50.79465930841034, 'SSIM': 0.2183421262495413}
+  a1=0.02  a0=0.010  beta=0.005 -> PSNR 27.55 SSIM 0.6794
+  a1=0.02  a0=0.020  beta=0.005 -> PSNR 28.22 SSIM 0.7626
+  a1=0.02  a0=0.040  beta=0.005 -> PSNR 28.19 SSIM 0.8190
+  a1=0.02  a0=0.010  beta=0.02  -> PSNR 26.23 SSIM 0.5967
+  a1=0.02  a0=0.020  beta=0.02  -> PSNR 27.48 SSIM 0.6705
+  a1=0.02  a0=0.040  beta=0.02  -> PSNR 27.40 SSIM 0.6876
+  a1=0.02  a0=0.010  beta=0.05  -> PSNR 24.09 SSIM 0.5056
+  a1=0.02  a0=0.020  beta=0.05  -> PSNR 24.53 SSIM 0.5267
+  a1=0.02  a0=0.040  beta=0.05  -> PSNR 24.04 SSIM 0.5141
+  a1=0.02  a0=0.010  beta=0.1   -> PSNR 19.44 SSIM 0.3557
+  a1=0.02  a0=0.020  beta=0.1   -> PSNR 19.27 SSIM 0.3513
+  a1=0.02  a0=0.040  beta=0.1   -> PSNR 19.02 SSIM 0.3425
+  a1=0.02  a0=0.010  beta=0.2   -> PSNR 15.81 SSIM 0.2612
+  a1=0.02  a0=0.020  beta=0.2   -> PSNR 15.83 SSIM 0.2610
+  a1=0.02  a0=0.040  beta=0.2   -> PSNR 15.80 SSIM 0.2596
+  a1=0.05  a0=0.025  beta=0.005 -> PSNR 28.09 SSIM 0.7792
+  a1=0.05  a0=0.050  beta=0.005 -> PSNR 26.57 SSIM 0.8280
+  a1=0.05  a0=0.100  beta=0.005 -> PSNR 21.96 SSIM 0.7577
+  a1=0.05  a0=0.025  beta=0.02  -> PSNR 27.89 SSIM 0.7021
+  a1=0.05  a0=0.050  beta=0.02  -> PSNR 28.36 SSIM 0.7880
+  a1=0.05  a0=0.100  beta=0.02  -> PSNR 27.96 SSIM 0.8393
+  a1=0.05  a0=0.025  beta=0.05  -> PSNR 26.79 SSIM 0.6299
+  a1=0.05  a0=0.050  beta=0.05  -> PSNR 28.30 SSIM 0.7312
+  a1=0.05  a0=0.100  beta=0.05  -> PSNR 28.09 SSIM 0.7726
+  a1=0.05  a0=0.025  beta=0.1   -> PSNR 25.34 SSIM 0.5597
+  a1=0.05  a0=0.050  beta=0.1   -> PSNR 26.84 SSIM 0.6424
+  a1=0.05  a0=0.100  beta=0.1   -> PSNR 26.08 SSIM 0.6393
+  a1=0.05  a0=0.025  beta=0.2   -> PSNR 22.14 SSIM 0.4388
+  a1=0.05  a0=0.050  beta=0.2   -> PSNR 22.65 SSIM 0.4601
+  a1=0.05  a0=0.100  beta=0.2   -> PSNR 22.02 SSIM 0.4406
+  a1=0.1   a0=0.050  beta=0.005 -> PSNR 26.59 SSIM 0.8280
+  a1=0.1   a0=0.100  beta=0.005 -> PSNR 21.91 SSIM 0.7580
+  a1=0.1   a0=0.200  beta=0.005 -> PSNR 19.12 SSIM 0.5208
+  a1=0.1   a0=0.050  beta=0.02  -> PSNR 28.33 SSIM 0.7865
+  a1=0.1   a0=0.100  beta=0.02  -> PSNR 26.88 SSIM 0.8324
+  a1=0.1   a0=0.200  beta=0.02  -> PSNR 23.53 SSIM 0.7990
+  a1=0.1   a0=0.050  beta=0.05  -> PSNR 28.26 SSIM 0.7335
+  a1=0.1   a0=0.100  beta=0.05  -> PSNR 28.29 SSIM 0.8145
+  a1=0.1   a0=0.200  beta=0.05  -> PSNR 27.15 SSIM 0.8380
+  a1=0.1   a0=0.050  beta=0.1   -> PSNR 27.57 SSIM 0.6791
+  a1=0.1   a0=0.100  beta=0.1   -> PSNR 28.69 SSIM 0.7892
+  a1=0.1   a0=0.200  beta=0.1   -> PSNR 27.88 SSIM 0.8240
+  a1=0.1   a0=0.050  beta=0.2   -> PSNR 26.38 SSIM 0.6124
+  a1=0.1   a0=0.100  beta=0.2   -> PSNR 28.28 SSIM 0.7405
+  a1=0.1   a0=0.200  beta=0.2   -> PSNR 27.12 SSIM 0.7527
+  a1=0.2   a0=0.100  beta=0.005 -> PSNR 21.91 SSIM 0.7580
+  a1=0.2   a0=0.200  beta=0.005 -> PSNR 19.13 SSIM 0.5223
+  a1=0.2   a0=0.400  beta=0.005 -> PSNR 18.26 SSIM 0.4786
+  a1=0.2   a0=0.100  beta=0.02  -> PSNR 26.87 SSIM 0.8326
+  a1=0.2   a0=0.200  beta=0.02  -> PSNR 23.09 SSIM 0.7857
+  a1=0.2   a0=0.400  beta=0.02  -> PSNR 19.64 SSIM 0.5654
+  a1=0.2   a0=0.100  beta=0.05  -> PSNR 28.28 SSIM 0.8149
+  a1=0.2   a0=0.200  beta=0.05  -> PSNR 26.03 SSIM 0.8218
+  a1=0.2   a0=0.400  beta=0.05  -> PSNR 22.57 SSIM 0.7416
+  a1=0.2   a0=0.100  beta=0.1   -> PSNR 28.64 SSIM 0.7899
+  a1=0.2   a0=0.200  beta=0.1   -> PSNR 27.29 SSIM 0.8272
+  a1=0.2   a0=0.400  beta=0.1   -> PSNR 24.87 SSIM 0.7916
+  a1=0.2   a0=0.100  beta=0.2   -> PSNR 28.51 SSIM 0.7576
+  a1=0.2   a0=0.200  beta=0.2   -> PSNR 28.01 SSIM 0.8244
+  a1=0.2   a0=0.400  beta=0.2   -> PSNR 25.89 SSIM 0.8037
+  a1=0.4   a0=0.200  beta=0.005 -> PSNR 19.13 SSIM 0.5223
+  a1=0.4   a0=0.400  beta=0.005 -> PSNR 18.26 SSIM 0.4789
+  a1=0.4   a0=0.800  beta=0.005 -> PSNR 17.29 SSIM 0.3746
+  a1=0.4   a0=0.200  beta=0.02  -> PSNR 23.09 SSIM 0.7857
+  a1=0.4   a0=0.400  beta=0.02  -> PSNR 19.65 SSIM 0.5663
+  a1=0.4   a0=0.800  beta=0.02  -> PSNR 18.12 SSIM 0.4494
+  a1=0.4   a0=0.200  beta=0.05  -> PSNR 26.02 SSIM 0.8218
+  a1=0.4   a0=0.400  beta=0.05  -> PSNR 22.16 SSIM 0.7283
+  a1=0.4   a0=0.800  beta=0.05  -> PSNR 19.30 SSIM 0.5088
+  a1=0.4   a0=0.200  beta=0.1   -> PSNR 27.28 SSIM 0.8272
+  a1=0.4   a0=0.400  beta=0.1   -> PSNR 23.97 SSIM 0.7742
+  a1=0.4   a0=0.800  beta=0.1   -> PSNR 20.26 SSIM 0.5846
+  a1=0.4   a0=0.200  beta=0.2   -> PSNR 27.98 SSIM 0.8244
+  a1=0.4   a0=0.400  beta=0.2   -> PSNR 24.97 SSIM 0.7924
+  a1=0.4   a0=0.800  beta=0.2   -> PSNR 21.50 SSIM 0.6453
+stage-1 best: {'alpha0': 0.1, 'alpha1': 0.1, 'beta': 0.1, 'PSNR': 28.68963499072414, 'SSIM': 0.7891761773257012}
+  lam=0.25  -> PSNR 28.45 SSIM 0.7586 (1.9s)
+  lam=0.5   -> PSNR 28.57 SSIM 0.7710 (1.3s)
+  lam=1.0   -> PSNR 28.67 SSIM 0.7830 (1.2s)
+  lam=2.0   -> PSNR 28.69 SSIM 0.7892 (0.8s)
+  lam=5.0   -> PSNR 28.60 SSIM 0.7903 (0.8s)
+  lam=10.0  -> PSNR 28.40 SSIM 0.7839 (0.9s)
+  lam=20.0  -> PSNR 28.14 SSIM 0.7760 (1.1s)
+  lam=50.0  -> PSNR 27.69 SSIM 0.7662 (2.0s)
+stage-2 best lam: 2.0
+  lam=(0.5,0.5,0.5) -> PSNR 28.57 SSIM 0.7710
+  lam=(0.5,0.5,2) -> PSNR 28.72 SSIM 0.7897
+  lam=(0.5,0.5,8) -> PSNR 28.67 SSIM 0.7955
+  lam=(0.5,2,0.5) -> PSNR 28.60 SSIM 0.7754
+  lam=(0.5,2,2) -> PSNR 28.72 SSIM 0.7925
+  lam=(0.5,2,8) -> PSNR 28.65 SSIM 0.7973
+  lam=(0.5,8,0.5) -> PSNR 28.62 SSIM 0.7825
+  lam=(0.5,8,2) -> PSNR 28.61 SSIM 0.7950
+  lam=(0.5,8,8) -> PSNR 28.48 SSIM 0.7976
+  lam=(2,0.5,0.5) -> PSNR 28.54 SSIM 0.7680
+  lam=(2,0.5,2) -> PSNR 28.71 SSIM 0.7878
+  lam=(2,0.5,8) -> PSNR 28.67 SSIM 0.7945
+  lam=(2,2,0.5) -> PSNR 28.56 SSIM 0.7713
+  lam=(2,2,2) -> PSNR 28.69 SSIM 0.7892
+  lam=(2,2,8) -> PSNR 28.64 SSIM 0.7955
+  lam=(2,8,0.5) -> PSNR 28.56 SSIM 0.7795
+  lam=(2,8,2) -> PSNR 28.51 SSIM 0.7914
+  lam=(2,8,8) -> PSNR 28.41 SSIM 0.7956
+  lam=(8,0.5,0.5) -> PSNR 28.62 SSIM 0.7652
+  lam=(8,0.5,2) -> PSNR 28.78 SSIM 0.7833
+  lam=(8,0.5,8) -> PSNR 28.73 SSIM 0.7885
+  lam=(8,2,0.5) -> PSNR 28.62 SSIM 0.7679
+  lam=(8,2,2) -> PSNR 28.76 SSIM 0.7845
+  lam=(8,2,8) -> PSNR 28.72 SSIM 0.7895
+  lam=(8,8,0.5) -> PSNR 28.56 SSIM 0.7735
+  lam=(8,8,2) -> PSNR 28.57 SSIM 0.7830
+  lam=(8,8,8) -> PSNR 28.48 SSIM 0.7863
+stage-3 best: {'lam1': 8.0, 'lam2': 0.5, 'lam3': 2.0, 'PSNR': 28.777596660973074, 'SSIM': 0.7832944313488899}
+  converged lam=(2.0, 2.0, 2.0) -> PSNR 28.7968 (135 it, 4.9s)
+  converged lam=(0.5, 0.5, 0.5) -> PSNR 28.7943 (311 it, 11.3s)
+  converged lam=(8.0, 0.5, 2.0) -> PSNR 28.7964 (205 it, 7.7s)
+
+FINAL: {
+  "alpha0": 0.1,
+  "alpha1": 0.1,
+  "beta": 0.1,
+  "lam1": 2.0,
+  "lam2": 2.0,
+  "lam3": 2.0,
+  "tuning_variance": 0.04,
+  "tuning_metric": "PSNR",
+  "psnr_stage1": 28.68963499072414,
+  "ssim_stage1": 0.7891761773257012,
+  "stage3_best": {
+    "lam1": 8.0,
+    "lam2": 0.5,
+    "lam3": 2.0,
+    "psnr": 28.777596660973074
+  },
+  "noisy_psnr": 14.014442573559172,
+  "noisy_ssim": 0.2183421262495413
+}

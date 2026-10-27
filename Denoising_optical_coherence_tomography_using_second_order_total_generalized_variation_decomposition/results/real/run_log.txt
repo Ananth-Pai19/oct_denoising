@@ -1,0 +1,43 @@
+case 1: (520, 970)
+  TGV: 16 iterations, 6.6 s
+  Noisy  sigma_flat 0.1306 ENL    7.06 plateaus   1.3%  t=0.00s
+  HMF    sigma_flat 0.0730 ENL   22.58 plateaus  27.2%  t=1.00s
+  HWT    sigma_flat 0.0677 ENL   26.22 plateaus  87.8%  t=0.03s
+  DTCWT  sigma_flat 0.0686 ENL   25.56 plateaus   6.9%  t=0.29s
+  NCDF   sigma_flat 0.0717 ENL   23.41 plateaus   5.7%  t=0.12s
+  ACED   sigma_flat 0.0788 ENL   19.39 plateaus   2.7%  t=1.95s
+  VO     sigma_flat 0.0666 ENL   27.09 plateaus  71.0%  t=3.37s
+  TGV    sigma_flat 0.0691 ENL   25.22 plateaus  20.3%  t=6.64s
+  figure -> results/figures/real/fig_case1_compare.png
+  figure -> results/figures/real/fig_case1_zoom.png
+  TGV strength-matched: scale 1.5 -> sigma_flat 0.0691 (VO 0.0666)
+  figure -> results/figures/real/fig_case1_matched.png
+case 9: (510, 960)
+  TGV: 17 iterations, 5.2 s
+  Noisy  sigma_flat 0.1171 ENL    5.41 plateaus   1.3%  t=0.00s
+  HMF    sigma_flat 0.0562 ENL   23.44 plateaus  27.9%  t=0.81s
+  HWT    sigma_flat 0.0480 ENL   32.11 plateaus  87.6%  t=0.02s
+  DTCWT  sigma_flat 0.0486 ENL   31.42 plateaus   7.0%  t=0.25s
+  NCDF   sigma_flat 0.0515 ENL   27.95 plateaus   5.5%  t=0.11s
+  ACED   sigma_flat 0.0605 ENL   20.21 plateaus   2.7%  t=1.91s
+  VO     sigma_flat 0.0450 ENL   36.53 plateaus  69.1%  t=2.65s
+  TGV    sigma_flat 0.0472 ENL   33.31 plateaus  18.9%  t=5.20s
+  figure -> results/figures/real/fig_case9_compare.png
+  figure -> results/figures/real/fig_case9_zoom.png
+  TGV strength-matched: scale 4.0 -> sigma_flat 0.0466 (VO 0.0450)
+  figure -> results/figures/real/fig_case9_matched.png
+case 13: (530, 970)
+  TGV: 15 iterations, 6.7 s
+  Noisy  sigma_flat 0.1024 ENL    7.61 plateaus   1.6%  t=0.00s
+  HMF    sigma_flat 0.0276 ENL  104.35 plateaus  28.3%  t=0.80s
+  HWT    sigma_flat 0.0185 ENL  233.36 plateaus  87.4%  t=0.02s
+  DTCWT  sigma_flat 0.0204 ENL  191.53 plateaus   7.3%  t=0.22s
+  NCDF   sigma_flat 0.0258 ENL  119.82 plateaus   5.6%  t=0.10s
+  ACED   sigma_flat 0.0404 ENL   48.95 plateaus   2.7%  t=1.87s
+  VO     sigma_flat 0.0124 ENL  521.49 plateaus  67.9%  t=3.70s
+  TGV    sigma_flat 0.0172 ENL  269.88 plateaus  18.6%  t=6.74s
+  figure -> results/figures/real/fig_case13_compare.png
+  figure -> results/figures/real/fig_case13_zoom.png
+  TGV strength-matched: scale 4.0 -> sigma_flat 0.0159 (VO 0.0124)
+  figure -> results/figures/real/fig_case13_matched.png
+  figure -> results/figures/real/fig_real_summary.png

@@ -1,0 +1,20 @@
+{
+  "alpha0": 0.1,
+  "alpha1": 0.1,
+  "beta": 0.1,
+  "lam1": 2.0,
+  "lam2": 2.0,
+  "lam3": 2.0,
+  "tuning_variance": 0.04,
+  "tuning_metric": "PSNR",
+  "psnr_stage1": 28.68963499072414,
+  "ssim_stage1": 0.7891761773257012,
+  "stage3_best": {
+    "lam1": 8.0,
+    "lam2": 0.5,
+    "lam3": 2.0,
+    "psnr": 28.777596660973074
+  },
+  "noisy_psnr": 14.014442573559172,
+  "noisy_ssim": 0.2183421262495413
+}

@@ -1,0 +1,6 @@
+method,MSE,PSNR,SSIM,EPI
+noisy input,1051.73,17.91,0.0868,0.1529
+2D adaptive Wiener,860.01,18.79,0.1033,0.1744
+wavelet soft threshold,149.26,26.39,0.4665,0.4085
+TV (Chambolle),127.56,27.07,0.5069,0.4675
+proposed,124.36,27.18,0.5141,0.5133

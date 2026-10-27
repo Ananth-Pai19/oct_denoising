@@ -1,0 +1,9 @@
+{
+  "iter": 20,
+  "rmse": 3.657896351566248,
+  "rel": 0.04376924349098338,
+  "n_patches": 30000,
+  "patch_size": 8,
+  "n_atoms": 256,
+  "ksvd_sparsity": 6
+}

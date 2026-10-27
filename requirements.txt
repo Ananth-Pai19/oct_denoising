@@ -1,0 +1,41 @@
+# Requirements for running denoising.ipynb (sparse-representation OCT denoising).
+# Tested on Python 3.10.12, Linux x86-64, CPU only. No GPU or deep-learning framework is needed:
+# the method is OMP + K-SVD + a closed-form linear solve in NumPy.
+#
+#   python3 -m venv venv
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+#   python -m ipykernel install --user --name dsp-oct --display-name "Python (dsp_project)"
+#   jupyter lab denoising.ipynb        # then Kernel -> Restart & Run All
+#
+# Headless execution (works with the packages below, no browser UI needed):
+#   jupyter nbconvert --to notebook --execute --inplace denoising.ipynb
+
+# ---- core numerical / imaging stack (versions used for the reported results) ----
+numpy==2.2.6
+scipy==1.15.3
+scikit-image==0.25.2
+PyWavelets==1.8.0
+tifffile==2025.5.10
+Pillow==12.3.0
+
+# ---- tables and plots ----
+pandas==2.3.3
+matplotlib==3.10.9
+
+# ---- notebook runtime ----
+ipykernel==7.3.0
+jupyter_client==8.10.0
+jupyter_core==5.9.1
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.2
+
+# ---- notebook user interface (optional if you open the notebook in VS Code / PyCharm) ----
+jupyterlab>=4.2,<5
+
+# Notes
+#  * scikit-learn is NOT required by the method itself (OMP and K-SVD are implemented from scratch);
+#    it is only pulled in transitively by some scikit-image versions.
+#  * On Python >= 3.12 use numpy>=2.0 as pinned above; on Python 3.9 drop the exact pins and install
+#    without versions (the code uses only long-stable NumPy/SciPy APIs).

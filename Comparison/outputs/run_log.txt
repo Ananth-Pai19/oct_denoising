@@ -1,0 +1,16 @@
+[     0s] dataset: C:\Users\sidhe\oct_denoising\Sparsity_SDOCT_DATASET_2012, threads: 8
+[     3s] tuning TGV: 15 combinations x 4 images
+[   305s] TGV    best {'alpha': 0.2, 'beta': 1.0}  ->  PSNR 27.512  SSIM 0.6863  EPI 0.5408
+[   305s] tuning NLM: 15 combinations x 4 images
+[   528s] NLM    best {'h_factor': 2.4, 'alpha': 0.3}  ->  PSNR 27.512  SSIM 0.6662  EPI 0.4960
+[   528s] tuning K-SVD: 15 combinations x 4 images
+[   674s] K-SVD  best {'omp_C': 1.6, 'lambda_scale': 3.0}  ->  PSNR 27.632  SSIM 0.6810  EPI 0.5416
+[   674s] grid tuning done in 671 s
+[   675s] tuning Wavelet-PSO: levels [1, 2, 3, 4, 5, 6]
+[   782s] Wavelet-PSO best {'level': 6, 'alpha': 0.033425114212346486, 'beta': 1.0, 'K': 1.6694867525119887}  (108 s)
+[   784s] denoising 13 evaluation images with TGV
+[   847s] denoising 13 evaluation images with NLM
+[   889s] denoising 13 evaluation images with Wavelet-PSO
+[   889s] denoising 13 evaluation images with K-SVD
+[   918s] denoised 13 images x 4 methods in 133 s
+[   936s] re-running the held-out cases with each method's original settings

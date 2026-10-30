@@ -1,0 +1,19 @@
+\begin{tabular}{lp{0.72\linewidth}}
+\toprule
+Item & Value \\
+\midrule
+K-SVD (frozen) & omp\_C=1.6, lambda\_scale=3.0, 12 atoms, global 64x256 dictionary \\
+TGV (frozen) & alpha0=alpha1=0.2, beta=1.0, lam1=lam2=lam3=2, max\_iter=300, tol=1e-3 \\
+ROI & Gaussian sigma 3.0, Otsu, closing radius 15, largest component, holes filled, first 15 columns dropped \\
+Edge band & top 10\% of ROI gradient (sigma 1.5), dilation radius 2 \\
+Feature scales & (1, 2, 4); variance, gradient and dmag features use log1p; 20000 ROI pixels per case \\
+Inner CV & 3 groups of training cases; ridge (0.01, 1.0, 100.0); HGB leaves (15, 31) at scale 2, window 15 \\
+Post-smoothing & (('none', 0), ('gauss', 2), ('gauss', 4), ('gauss', 8), ('guided', 4), ('guided', 8)); guided eps 1300 \\
+W9, W10 & cutoffs (1, 2, 3, 5, 8, 12, 20); non-decimated pyramid sigmas (1.0, 3.0, 10.0), 4 levels \\
+Controls & shuffle block 32, random smooth sigma 16.0 \\
+Boundary tracer & 3 anchored paths, derivative-of-Gaussian sigma (2.0, 4.0), step 2, top band 15, gap 20, edge band 15 px, rise half-width 15, segment 32 \\
+Metrics & GMSD c=170; Laplacian EPI blur 1.0; flat blocks 16 px, 10\%; CNR window 24, 5 foreground windows \\
+Statistics & 10000 bootstrap resamples, Wilcoxon two-sided, Holm per metric and baseline; edge weight beta 4 \\
+Seed & 42 \\
+\bottomrule
+\end{tabular}
